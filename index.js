@@ -4,5 +4,6 @@ app.use(async ctx => {
     ctx.body = 'Hello World';
 });
 
-app.listen(3000);
+var port = process.env.port || (process.argv[2] )
+app.listen(port);
 console.log("Application Started.");

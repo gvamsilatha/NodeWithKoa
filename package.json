@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\"",
-    "start": "echo \"Running start script\"",
-    "stop": "echo \"Running stop script\"",
-    "start:dev": "echo \"Running start:dev script\""
-  },
+    "start": "node index.js",
+    "start:dev": "node index.js 4000",
+    "stop": "echo \"Running stop script\""
+   },
   "keywords": [
     "npm",
     "scripting",
