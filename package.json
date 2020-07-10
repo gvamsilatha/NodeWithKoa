@@ -8,7 +8,7 @@
     "start": "node index.js",
     "start:dev": "node index.js 4000",
     "stop": "echo \"Running stop script\""
-   },
+  },
   "keywords": [
     "npm",
     "scripting",
@@ -18,7 +18,8 @@
   "license": "MIT",
   "devDependencies": {
     "mocha": "^8.0.1",
-    "should": "^13.2.3"
+    "should": "^13.2.3",
+    "supertest": "^4.0.2"
   },
   "dependencies": {
     "koa": "^2.13.0"

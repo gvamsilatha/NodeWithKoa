@@ -1,7 +1,7 @@
-const Koa = require("koa");
-const app = new Koa();
+const Koa =  require("koa");
+const app =module.exports = new Koa();
 app.use(async ctx => {
-    ctx.body = 'Hello World';
+    ctx.body = 'Koa says Hi!';
 });
 
 var port = process.env.port || (process.argv[2] )
