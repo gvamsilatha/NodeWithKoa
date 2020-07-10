@@ -12,5 +12,9 @@
     "koa"
   ],
   "author": "Vamsilatha Gorlagunta",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^8.0.1",
+    "should": "^13.2.3"
+  }
 }
