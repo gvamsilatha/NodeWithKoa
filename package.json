@@ -1,0 +1,16 @@
+{
+  "name": "nodewithkoa",
+  "version": "1.0.0",
+  "description": "A small demo app with using koa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "npm",
+    "scripting",
+    "koa"
+  ],
+  "author": "Vamsilatha Gorlagunta",
+  "license": "MIT"
+}
