@@ -4,10 +4,12 @@
   "description": "A small demo app with using koa",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\"",
+    "test": "mocha",
     "start": "node index.js",
     "start:dev": "node index.js 4000",
-    "stop": "echo \"Running stop script\""
+    "stop": "echo \"Running stop script\"",
+    "compile:ts":"tsc --outDir ./lib --module commonjs ./src/greeter.ts",
+    "compile":"npm run compile:ts"
   },
   "keywords": [
     "npm",
@@ -19,7 +21,8 @@
   "devDependencies": {
     "mocha": "^8.0.1",
     "should": "^13.2.3",
-    "supertest": "^4.0.2"
+    "supertest": "^4.0.2",
+    "typescript": "^3.9.6"
   },
   "dependencies": {
     "koa": "^2.13.0"
