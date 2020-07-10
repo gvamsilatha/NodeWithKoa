@@ -8,8 +8,10 @@
     "start": "node index.js",
     "start:dev": "node index.js 4000",
     "stop": "echo \"Running stop script\"",
-    "compile:ts":"tsc --outDir ./lib --module commonjs ./src/greeter.ts",
-    "compile":"npm run compile:ts"
+    "compile:ts": "tsc --outDir ./lib --module commonjs ./src/greeter.ts",
+    "compile": "npm run compile:ts",
+    "precompile": "rm -rf lib/*.*",
+    "clean": "rimraf lib/*"
   },
   "keywords": [
     "npm",
@@ -25,6 +27,7 @@
     "typescript": "^3.9.6"
   },
   "dependencies": {
-    "koa": "^2.13.0"
+    "koa": "^2.13.0",
+    "rmraf": "^1.0.3"
   }
 }
