@@ -29,5 +29,17 @@
   "dependencies": {
     "koa": "^2.13.0",
     "rmraf": "^1.0.3"
-  }
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gvamsilatha/NodeWithKoa.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gvamsilatha/NodeWithKoa/issues"
+  },
+  "homepage": "https://github.com/gvamsilatha/NodeWithKoa#readme"
 }
